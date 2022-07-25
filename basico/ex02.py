@@ -4,8 +4,6 @@ descrito, exiba a saudação apropriada. EX:
 Bom dia 0-11, Boa tarde 12-17, Boa noite 18-23.
 """
 
-from curses.ascii import isdigit
-
 
 hr = int(input('Que horas são (0-23): '))
 
