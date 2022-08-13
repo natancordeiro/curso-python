@@ -1,5 +1,7 @@
 # Loop infinito
 while True:
+    print('\033[1;36m VALIDE SEU CPF ')
+    print('----------------------------\033[m')
     # cpf = '16899535009'
     cpf = input('Digite um CPF: ')
     novo_cpf = cpf[:-2]                 # Elimina os dois últimos digitos do CPF
@@ -29,9 +31,9 @@ while True:
     # Descobri que sequências avaliavam como verdadeiro, então também
     # adicionei essa checagem aqui
     if cpf == novo_cpf and not sequencia:
-        print('Válido')
+        print('\033[1;32m CPF Válido\033[m')
     else:
-        print('Inválido')
+        print('\033[1;31mCPF Inválido\033[m')
 
 
 """
