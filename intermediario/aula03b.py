@@ -44,7 +44,7 @@ lista = [
     ['c2', 2],
     ['c3', 3],
 ]
-#  Convertendo lista em dicioário 
+#  Convertendo lista em dicioário
 # (somente se a lista ou tupla, tiver uma dupla de valores)
 dicio = dict(lista)
 print(dicio)
