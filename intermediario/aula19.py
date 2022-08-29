@@ -50,7 +50,7 @@ for raiz, diretorios, arquivos in os.walk(caminho_procura):
 
                 # exibindo resposta ao usuário
                 print()
-                print('Ecnontrei arquivo: ', arquivo)
+                print('Encontrei arquivo: ', arquivo)
                 print('Caminho: ', caminho_completo)
                 print('Nome: ', nome_arquivo)
                 print('Extensão: ', ext_arquivo)
